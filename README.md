@@ -1,2 +1,2 @@
-hoge plus-message
+hoge 1
 
