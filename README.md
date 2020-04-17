@@ -1,1 +1,1 @@
-応用課題bookers1-debug start
+応用課題bookers1-debug half
