@@ -1,9 +1,13 @@
-Practice
-
-Test
-
-Test2
-
-Test3
-
-Test4
+*  git init
+* リモートリポジトリを登録する
+* $ git add *
+* $ git commit -m "Initial Commit Message"
+* $ git remote add origin リモートリポジトリのurl
+リモートリポジトリのurlの確認方法は、「5章【基本コマンドを理解しよう （リモート編）】」を参照してください。
+* リモートリポジトリへPUSHする。
+* $ git push -u origin master
+* 
+1. 現在のアドレスを確認
+git remote -v
+1. 向き先を変更
+git remote set-url origin {new url}
