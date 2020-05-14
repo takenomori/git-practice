@@ -1,13 +1,29 @@
-*  git init
-* リモートリポジトリを登録する
-* $ git add *
-* $ git commit -m "Initial Commit Message"
-* $ git remote add origin リモートリポジトリのurl
-リモートリポジトリのurlの確認方法は、「5章【基本コマンドを理解しよう （リモート編）】」を参照してください。
-* リモートリポジトリへPUSHする。
-* $ git push -u origin master
-* 
-1. 現在のアドレスを確認
-git remote -v
-1. 向き先を変更
-git remote set-url origin {new url}
+ git init
+ #リモートリポジトリを登録する
+ git remote add origin リモートリポジトリのurl 
+ git add *(＝　-A/.)　
+ git commit -m "コメント内容"
+ git push -u origin ブランチ名
+ ＃url変更
+ git remote set-url origin {new url}
+
+
+#ブランチ一覧
+ git branch
+＃新規ブランチ作成
+git branch ブランチ名
+git branch -d ブランチ名
+git checkout ブランチ名
+#現在のブランチの作業内容を新規作成ブランチに移動
+git checkout -b ブランチ名
+
+git status
+git log
+
+ls -a
+
+git remote -v 
+
+
+
+
